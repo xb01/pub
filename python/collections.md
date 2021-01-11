@@ -8,15 +8,21 @@ https://repl.it/languages/Python
 
 ------------------------------------------------------------------------------
 # 1: generate a list (L1) of size 10, each having a value 7
+```
 print L1
 [7, 7, 7, 7, 7, 7,7, 7, 7, 7] 
+```
 
 # Answer
-# using list comprehension:
+#### using list comprehension:
+```
 L1 = [7 for ix in range(10)]
+```
 
 # pythonic way
+```
 L1 = [7]*10
+```
 
 ------------------------------------------------------------------------------
 
